@@ -31,6 +31,8 @@ public class NumerosPrimos {
             //System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
         
         for (int i = 1; i <= 99999; i++) {
+            int divisionEntera = i;
+            int contador = 0;
      
             /*int divisionEntera = i;
 
