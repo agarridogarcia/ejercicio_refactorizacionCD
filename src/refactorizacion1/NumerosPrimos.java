@@ -23,21 +23,25 @@ public class NumerosPrimos {
         int nDigitos;
         Numeros digitos = new Numeros();
         numDigitos = digitos.pedirNumDigitos();
+        
+        
         //numDigitos=Integer.parseInt(arg[0]);
 
         //if (numDigitos <= 0) {
             //System.out.println("Ingrese como parámetro, un numero de digitos correcto (mayor que 0): ");
         
         for (int i = 1; i <= 99999; i++) {
-            int divisionEntera = i;
+     
+            /*int divisionEntera = i;
 
             int contador = 0;
 
             while (divisionEntera != 0) {
                 divisionEntera = divisionEntera / 10;
                 contador++;
-            }
-            nDigitos = contador;
+            }*/
+           
+            nDigitos=digitos.calculaDigitos(i);
 
             if (nDigitos == numDigitos) {
                 if (i < 4) {
