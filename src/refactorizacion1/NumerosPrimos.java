@@ -44,9 +44,13 @@ public class NumerosPrimos {
             }*/
            
             nDigitos=digitos.calculaDigitos(i);
+            
 
             if (nDigitos == numDigitos) {
-                if (i < 4) {
+                digitos.calculaPrimo(i);
+                digitos.amosar(i);
+            }
+                /*if (i < 4) {
                     esPrimo = true;
                 } else {
                     if (i % 2 == 0) {
@@ -58,6 +62,7 @@ public class NumerosPrimos {
                         if (limite % 2 == 0) {
                             limite--;
                         }
+                        esPrimo=digitos.calculaPrimo();
 
                         while (i1 <= limite) {
                             if (i % i1 == 0) {
@@ -80,6 +85,8 @@ public class NumerosPrimos {
                 }
             }
         }
-    }
+    }*/
 
+}
+        }
 }
